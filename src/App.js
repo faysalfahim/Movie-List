@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 import Login from './pages/login/login';
-import MovieListComponent from './pages/movie-list/movie-list';
 import MovieDetails from './pages/movie-details/movie-details';
-import FavouriteMovies from './pages/favourite-movies/list';
+import MovieListComponent from './pages/movie-list/movie-list';
+import FavouriteMovies from './pages/favourite-movies/favourite-movie-list';
 
 function App() {
   return (
@@ -20,3 +20,4 @@ function App() {
 }
 
 export default App;
+
