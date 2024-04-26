@@ -51,7 +51,7 @@ function MovieDetails() {
           <Text strong>Release Date:</Text> {movie.releaseDate}
         </Col>
       </Row>
-      {/* Add more movie details here if needed */}
+      
     </div>
   );
 }
